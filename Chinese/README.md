@@ -94,11 +94,14 @@
 	* [百度百科：!DOCTYPE](http://baike.baidu.com/view/1091028.htm)
 
 * 浏览器标准模式和怪异模式之间的区别是什么？
+	* http://zh.wikipedia.org/wiki/%E6%80%AA%E5%BC%82%E6%A8%A1%E5%BC%8F
 
 * 使用 XHTML 的局限有哪些？
 	* 如果页面使用 'application/xhtml+xml' 会有什么问题吗？
+	* http://www.w3cschool.cc/html/html-xhtml.html
 
 * 如果网页内容需要支持多语言，你会怎么做？
+	* 
 	* 在设计和开发多语言网站时，有哪些问题你必须要考虑？
 
 * `data-`属性的作用是什么？
