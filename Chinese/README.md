@@ -56,14 +56,18 @@
 	* 期待的解决方案包括：
 		* 文件合并
 		* 文件最小化/文件压缩
-		* 使用 CDN 托管
+		* 使用 CDN 托管(其主要技术是负载均衡、内容分发与复制、内容缓存等)
 		* 缓存的使用
-		* 其他
+		* 其他[Yahoo: Best Practices for Speeding Up Your Web Site](http://developer.yahoo.com/performance/rules.html)
 
 * 为什么利用多个域名来提供网站资源会更有效？
-	* 浏览器同一时间可以从一个域名下载多少资源？
+	* 浏览器同一时间可以从一个域名下载最多不超过10个
+　　 * [Roundup on Parallel Connections](http://www.stevesouders.com/blog/2008/03/20/roundup-on-parallel-connections/)
 
 * 请说出三种减少页面加载时间的方法。（加载时间指感知的时间或者实际加载时间）
+       * 增加并发（多域名加载, CDN），减少单个请求的负担（文件优化）
+       * 渲染：重要、优先显示的内容，在DOM中提前
+       * 感知：优先显示视野内的资源（媒体，动态渲染...）
 
 * 如果你参与到一个项目中，发现他们使用 Tab 来缩进代码，但是你喜欢空格，你会怎么做？
 	* 建议这个项目使用像 EditorConfig (http://editorconfig.org/) 之类的规范
