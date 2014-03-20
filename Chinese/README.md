@@ -62,7 +62,7 @@
 
 * 为什么利用多个域名来提供网站资源会更有效？
 	* 浏览器同一时间可以从一个域名下载最多不超过10个
-　　 * [Roundup on Parallel Connections](http://www.stevesouders.com/blog/2008/03/20/roundup-on-parallel-connections/)
+	* [Roundup on Parallel Connections](http://www.stevesouders.com/blog/2008/03/20/roundup-on-parallel-connections/)
 
 * 请说出三种减少页面加载时间的方法。（加载时间指感知的时间或者实际加载时间）
        * 增加并发（多域名加载, CDN），减少单个请求的负担（文件优化）
@@ -70,7 +70,7 @@
        * 感知：优先显示视野内的资源（媒体，动态渲染...）
 
 * 如果你参与到一个项目中，发现他们使用 Tab 来缩进代码，但是你喜欢空格，你会怎么做？
-	* 建议这个项目使用像 EditorConfig (http://editorconfig.org/) 之类的规范
+	* 建议这个项目使用像 [EditorConfig](http://editorconfig.org/) 之类的规范
 	* 为了保持一致性，接受项目原有的风格
 	* 直接使用 VIM 的 retab 命令
 
@@ -78,17 +78,20 @@
 	* 如果不使用JS来完成，可以加分。
 
 * 你都使用哪些工具来测试代码的性能？
-	* Profiler, JSPerf, Dromaeo
+	* [Profiler](http://yuilibrary.com/), [JSPerf](http://jsperf.com/), [Dromaeo](http://dromaeo.com/)
 
 * 如果今年你打算熟练掌握一项新技术，那会是什么？
+	* node.js / go
 
 * 请谈一下你对网页标准和标准制定机构重要性的理解。
 
-* 什么是 FOUC（无样式内容闪烁）？你如何来避免 FOUC？
+* 什么是 FOUC（无样式内容闪烁）？你如何来避免 FOUC？ [Flash of Unstyled Content](http://www.bluerobot.com/web/css/fouc.asp/)
 
 ####<a name='html'>HTML相关问题：</a>
 
-* `doctype`（文档类型）的作用是什么？
+* `doctype`（文档类型）的作用是什么？ 
+	* !DOCTYPE是一种标准通用标记语言的文档类型声明，它的目的是要告诉标准通用标记语言解析器，它应该使用什么样的文档类型定义（DTD）来解析文档
+	* [百度百科：!DOCTYPE](http://baike.baidu.com/view/1091028.htm)
 
 * 浏览器标准模式和怪异模式之间的区别是什么？
 
@@ -269,7 +272,7 @@ $(".foo div#bar:eq(0)")
 ```javascript
 ~~3.14
 ```
-
+http://jsperf.com/
 问题：上面语句的返回值是什么？
 **答案：3**
 
